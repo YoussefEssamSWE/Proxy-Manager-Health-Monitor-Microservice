@@ -1,0 +1,62 @@
+*.rbc
+capybara-*.html
+.rspec
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/db/*.sqlite3-[0-9]*
+/public/system
+/coverage/
+/spec/tmp
+*.orig
+rerun.txt
+pickle-email-*.html
+
+/config/master.key
+/config/credentials/*.key
+
+# Ignore bundler config.
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore pidfiles, but keep the directory.
+/tmp/pids/*
+!/tmp/pids/.keep
+
+/storage/*
+!/storage/.keep
+/tmp/storage/*
+!/tmp/storage/.keep
+
+/public/assets
+
+# Ignore node_modules
+/node_modules
+
+# Ignore uploaded files
+/uploads
+
+# Ignore local environment files
+.env
+.env.local
+
+# Ignore vendor bundle
+/vendor/bundle
+
+# Ignore test and demo files
+test_*.sh
+demo_*.py
+*REPORT.md
+QUICK_START.md
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store

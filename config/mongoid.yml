@@ -1,0 +1,15 @@
+development:
+  clients:
+    default:
+      database: proxy_manager_development
+      hosts:
+        - localhost:27017
+      options:
+        server_selection_timeout: 5
+
+production:
+  clients:
+    default:
+      uri: <%= ENV['MONGODB_URI'] || 'mongodb://localhost:27017/proxy_manager_production' %>
+      options:
+        server_selection_timeout: 5
